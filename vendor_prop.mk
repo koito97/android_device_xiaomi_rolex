@@ -25,6 +25,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.fluence.voicerec=false \
     persist.vendor.audio.speaker.prot.enable=false \
     persist.vendor.bt.enable.splita2dp=false \
+    persist.bluetooth.a2dp_offload.disabled=true \
     persist.vendor.audio.hw.binder.size_kbyte=1024 \
     ro.config.media_vol_steps=15 \
     ro.config.vc_call_vol_steps=7 \
