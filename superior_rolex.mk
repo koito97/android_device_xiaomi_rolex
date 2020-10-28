@@ -24,7 +24,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 $(call inherit-product, vendor/superior/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
-DEVICE_MAINTAINERS="koito97"
 
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -45,3 +44,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="rolex-user 7.1.2 N2G47H V9.2.6.0.NCCMIEK release-keys"
 
 BUILD_FINGERPRINT := Xiaomi/rolex/rolex:7.1.2/N2G47H/V9.2.6.0.NCCMIEK:user/release-keys
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+   ro.superior.maintainer=koito97
